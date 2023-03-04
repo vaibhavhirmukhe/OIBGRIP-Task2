@@ -1,0 +1,149 @@
+*{
+    font-family: helvetica,arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Container{
+    background-color: rgb(8, 8, 8);
+}
+
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin: 17px 7px;
+}
+
+li a{
+    font-size: 16px;
+    padding: 10px 10px;
+    color: rgb(138, 137, 137);
+    text-decoration: none;
+}
+
+li a:hover{
+    color: white;
+}
+
+.container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.about{
+    width: 26%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 2px 2px gray;
+}
+.about h3{
+    font-size: 1.3rem;
+    color: rgb(138, 137, 137);
+}
+.about p{
+    color: rgb(138, 137, 137);
+    position: relative;
+    bottom: -55px;
+    font-size: 0.9rem;
+    text-align:justify;
+}
+
+.main{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.main p{ 
+    width: 45%;
+    margin: auto;
+}
+
+.main-2{
+    color: white;
+    background-color: rgb(8, 8, 8);
+    margin-top: 30px;
+}
+.main-2 h1{
+    padding: 20px;
+    border-bottom: 1px solid rgb(138, 137, 137);
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.detail{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.box{
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.box:hover{
+    box-shadow: 1px 1px 2px;
+    cursor: pointer;
+}
+
+.box p{
+    margin-top: 10px;
+    color: rgb(138, 137, 137);
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.main-3 h1{
+    padding: 30px;
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.detail-2{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+.detail-2 p{
+    width: 45%;
+    margin: auto;
+}
+
+.footer{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+.footer p{
+    font-size: 0.9rem;
+    color: rgb(138, 137, 137);
+    padding: 6px 10px;
+    text-align: center;
+}
